@@ -1545,3 +1545,27 @@ ul.bullet {
         background-size: cover;
     background-position: center;
 }
+.news-img{
+          height: 200px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+     box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    border-radius: 10px;
+}
+.family .news-img{
+     height: 280px;
+     box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    border-radius: 10px;
+    
+}
+@media (max-width: 767px) {
+    .family .news-img{
+        height: 450px;
+    }
+}
