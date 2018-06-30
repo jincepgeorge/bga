@@ -1525,6 +1525,8 @@ ul.bullet {
 .site-header .logo{
     height: 60px;
     width: 60px;
+        border-radius: 50%;
+    box-shadow: none;
 }
 .site-header{
     padding: 10px 30px;
@@ -1538,4 +1540,8 @@ ul.bullet {
 }
 .founder-img{
     width: 100%;
+}
+.hero .slides li{
+        background-size: cover;
+    background-position: center;
 }
